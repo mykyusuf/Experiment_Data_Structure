@@ -1,0 +1,5 @@
+# Experiment_Data_Structure
+The problem is making basic linked list model to keep users experiments data and redesign it to make easy for understanding.Designing a linked list without any Java Collection class method is our main problem. We have to use iterator to travel in the our handmade linked list prototype. Our prototype has head node to keep experiment and has a next node to keep next node in the list. It must be able to travel day by day and also travel experiments one by one. There isnt a “back” node to turn back in my program and it made my job more difficult.
+
+# Solution
+I implemented ExperimentList class from Iterator interface and keep data. There is a “head” node to keep experiment and this node has a “next” node to keep next element of the list. Head node has a “data” as an experiment. It keeps informations about experiment. There is a connection between the nodes. Whole head nodes have next nodes, and whole next nodes are haed nodes actually. To do something we need, we travel on the nodes .
